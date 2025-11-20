@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="text-white">
-      <div className="container mx-auto px-4 py-12">
+      <div className="py-12">
         <div className="grid grid-cols-1 md:grid-cols-3">
           {/* Column 1 - Company Info */}
           <div className="p-8" style={{ backgroundColor: '#222222' }}>
@@ -62,7 +62,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="border-t border-white/20" style={{ backgroundColor: '#1a1a1a' }}>
-        <div className="container mx-auto px-4 py-4">
+        <div className="px-4 py-4">
           <p className="text-center text-sm text-white">
             Copyright 2025 | Profi-rez.hr | Powered by remarketing.hr
           </p>

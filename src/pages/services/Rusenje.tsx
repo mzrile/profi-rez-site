@@ -31,7 +31,7 @@ const Rusenje = () => {
             </p>
           </div>
 
-          <div className="bg-card p-8 rounded-lg shadow-lg">
+          <div className="bg-card p-8 rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.12)]">
             <h2 className="text-2xl font-bold mb-6 text-card-foreground">
               Usluge koje nudimo:
             </h2>
