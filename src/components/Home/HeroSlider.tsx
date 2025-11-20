@@ -7,10 +7,29 @@ import slider3 from "@/assets/slider-3.jpg";
 import slider4 from "@/assets/slider-4.jpg";
 
 const slides = [
-  { id: 1, image: slider1, alt: "Dijamantno rezanje betona" },
-  { id: 2, image: slider2, alt: "Profesionalno bušenje betona" },
-  { id: 3, image: slider3, alt: "Rušenje građevinskih objekata" },
-  { id: 4, image: slider4, alt: "Profesionalna oprema za rad na betonu" },
+  { 
+    id: 1, 
+    image: slider1, 
+    alt: "Dijamantno rezanje betona",
+    text: "Rezanje betona, bušenje betona, rezanje otvora"
+  },
+  { 
+    id: 2, 
+    image: slider2, 
+    alt: "Profesionalno bušenje betona",
+    text: "Bušenje rupa u zidu, rupa za bojler i dimnjak, bušenje otvora za grijanje"
+  },
+  { 
+    id: 3, 
+    image: slider3, 
+    alt: "Rušenje građevinskih objekata",
+    text: "Rušenje kuća i zgrada, rušenje objekta, rušenje nosivih greda"
+  },
+  { 
+    id: 4, 
+    image: slider4, 
+    alt: "Profesionalna oprema za rad na betonu"
+  },
 ];
 
 const HeroSlider = () => {
@@ -46,7 +65,16 @@ const HeroSlider = () => {
             alt={slide.alt}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+          {slide.text && (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="container mx-auto px-4">
+                <h2 className="text-3xl md:text-5xl font-bold text-white text-center drop-shadow-lg">
+                  {slide.text}
+                </h2>
+              </div>
+            </div>
+          )}
         </div>
       ))}
 
