@@ -3,6 +3,7 @@ import HeroSlider from "@/components/Home/HeroSlider";
 import Gallery from "@/components/Home/Gallery";
 import concreteCutting from "@/assets/concrete-cutting.jpg";
 import concreteDrilling from "@/assets/concrete-drilling.jpg";
+import concreteMilling from "@/assets/concrete-milling.jpg";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
               />
             </div>
             <div className="order-1 lg:order-2">
+              <h2 className="text-3xl font-bold text-foreground mb-4">Dijamantno rezanje betona</h2>
               <p className="text-lg leading-relaxed text-foreground">
                 Dijamantno rezanje betona je jedini način koji osigurava brzo, učinkovito i 
                 precizno rezanje tzv mokrom tehnikom. Ne oslabljuje rezani materijal a može 
@@ -37,6 +39,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Bušenje betona</h2>
               <p className="text-lg leading-relaxed text-foreground">
                 Bušenje betona uz minimalnu prašinu odrađujemo s dijamantnim krunama uz 
                 zalijevanje vodom. Kruna se pričvršćuje na glavu bušilice. Kako je dijamant 
@@ -50,6 +53,31 @@ const Index = () => {
                 alt="Bušenje betona"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3 - Concrete Milling */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div className="order-2 lg:order-1">
+              <img
+                src={concreteMilling}
+                alt="Bušenje i frezanje betona"
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
+            <div className="order-1 lg:order-2">
+              <h2 className="text-3xl font-bold text-foreground mb-4">Bušenje i frezanje betona</h2>
+              <p className="text-lg leading-relaxed text-foreground">
+                Frezanje (glodanje betona) i brušenje betonskog poda zahtijeva posebnu opremu. 
+                Ovdje je važno biti svjestan da se ravan i gladak betonski pod najčešće koristi 
+                u proizvodnim i skladišnim halama jer omogućuje prijenos ekstremnih tereta i uz 
+                to mora biti otporan na mnoge za njega nepovoljne čimbenike. Uz kvalitetnu opremu 
+                brusimo i frežemo beton, ciglu, mramor, asfalt, kamen i ostalo.
+              </p>
             </div>
           </div>
         </div>
