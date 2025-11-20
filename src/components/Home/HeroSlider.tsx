@@ -67,11 +67,11 @@ const HeroSlider = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
           {slide.text && (
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="container mx-auto px-4">
-                <h2 className="text-3xl md:text-5xl font-bold text-white text-center drop-shadow-lg">
+            <div className="absolute bottom-4 right-4 md:bottom-8 md:right-8 max-w-md">
+              <div className="bg-black/70 backdrop-blur-sm px-6 py-4 rounded-lg">
+                <p className="text-base md:text-lg text-white leading-relaxed">
                   {slide.text}
-                </h2>
+                </p>
               </div>
             </div>
           )}
