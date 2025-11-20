@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <footer className="text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3">
           {/* Column 1 - Company Info */}
-          <div>
+          <div className="p-8" style={{ backgroundColor: '#222222' }}>
             <h3 className="text-lg font-bold mb-4">Podaci o firmi</h3>
             <div className="space-y-2 text-sm">
               <p className="font-semibold">PROFI-REZ SIM d.o.o.</p>
@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
 
           {/* Column 2 - Working Hours */}
-          <div>
+          <div className="p-8" style={{ backgroundColor: '#292929' }}>
             <h3 className="text-lg font-bold mb-4">Radno vrijeme</h3>
             <div className="space-y-2 text-sm">
               <p>Pon - Pet: 08 - 16h</p>
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
 
           {/* Column 3 - Services */}
-          <div>
+          <div className="p-8" style={{ backgroundColor: '#1f1f1f' }}>
             <h3 className="text-lg font-bold mb-4">Usluge koje nudimo</h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -61,9 +61,9 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-primary-foreground/20">
+      <div className="border-t border-white/20" style={{ backgroundColor: '#1a1a1a' }}>
         <div className="container mx-auto px-4 py-4">
-          <p className="text-center text-sm">
+          <p className="text-center text-sm text-white">
             Copyright 2025 | Profi-rez.hr | Powered by remarketing.hr
           </p>
         </div>
