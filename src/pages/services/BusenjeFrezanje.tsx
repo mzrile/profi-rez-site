@@ -1,0 +1,51 @@
+import Layout from "@/components/Layout/Layout";
+import { Check } from "lucide-react";
+
+const BusenjeFrezanje = () => {
+  const services = [
+    "Uklanjanje betona",
+    "Ravnjanje razlika u betonu",
+    "Sanacija oštećenog betona",
+    "Uklanjanje premaza s podova",
+    "Uklanjanje prljavih slojeva",
+    "Zatvaranje pukotina",
+  ];
+
+  return (
+    <Layout>
+      <div className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
+            Bušenje i frezanje betona
+          </h1>
+          
+          <div className="prose max-w-none mb-12">
+            <p className="text-lg leading-relaxed text-foreground">
+              Frezanje (glodanje betona) i brušenje betonskog poda zahtijeva posebnu opremu. 
+              Ovdje je važno biti svjestan da se ravan i gladak betonski pod najčešće koristi 
+              u proizvodnim i skladišnim halama jer omogućuje prijenos ekstremnih tereta i uz 
+              to mora biti otporan na mnoge za njega nepovoljne čimbenike. Uz kvalitetnu opremu 
+              brusimo i frežemo beton, ciglu, mramor, asfalt, kamen i ostalo…
+            </p>
+          </div>
+
+          <div className="bg-card p-8 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-bold mb-6 text-card-foreground">
+              Usluge koje nudimo:
+            </h2>
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {services.map((service, index) => (
+                <li key={index} className="flex items-start gap-3">
+                  <Check className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
+                  <span className="text-foreground">{service}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </Layout>
+  );
+};
+
+export default BusenjeFrezanje;
