@@ -77,7 +77,7 @@ const Kontakt = () => {
             </h2>
             <div className="aspect-video w-full rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.1425846928267!2d16.238961776941985!3d45.80883971201447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d1f0e0000001%3A0x0!2sBotani%C4%8Dka%20ul.%2014%2C%2010370%2C%20Donje%20Dvori%C5%A1%C4%87e!5e0!3m2!1sen!2shr!4v1234567890123!5m2!1sen!2shr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.3059191763514!2d16.27663917664499!3d45.81927700967685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47666ff20b3ba5e9%3A0xc73a7f4facb7b150!2zQm90YW5pxI1rYSB1bGljYSAxNCwgMTAzNzAsIERvbmplIER2b3JpxaHEh2U!5e1!3m2!1sen!2shr!4v1770659542793!5m2!1sen!2shr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
