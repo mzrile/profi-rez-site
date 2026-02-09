@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout/Layout";
+import oNamaImage from "@/assets/o-nama.jpg";
 
 const ONama = () => {
   return (
@@ -22,6 +23,14 @@ const ONama = () => {
               Usluge dijamantnog rezanja, bušenja, brušenja i frezanja nudimo na području 
               cijele RH. Obratite nam se s povjerenjem!
             </p>
+          </div>
+
+          <div className="mt-10">
+            <img
+              src={oNamaImage}
+              alt="PROFI-REZ dostavno vozilo"
+              className="w-full rounded-lg shadow-lg object-cover"
+            />
           </div>
         </div>
       </div>
