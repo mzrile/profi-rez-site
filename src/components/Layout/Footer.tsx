@@ -40,16 +40,17 @@ const Footer = () => {
         {/* Column 3 - Google Location */}
         <div className="p-6" style={{ backgroundColor: '#252525' }}>
           <h3 className="text-base font-bold mb-3">Google lokacija</h3>
-          <div className="space-y-1.5 text-sm">
-            <p>Botanička ulica 14, Donje Dvorišće</p>
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=Botani%C4%8Dka+ulica+14%2C+Donje+Dvori%C5%A1%C4%87e"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-2 text-accent hover:text-accent/80 transition-colors underline"
-            >
-              Prikaži na karti →
-            </a>
+          <div className="w-full aspect-video rounded overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.3059191763514!2d16.27663917664499!3d45.81927700967685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47666ff20b3ba5e9%3A0xc73a7f4facb7b150!2zQm90YW5pxI1rYSB1bGljYSAxNCwgMTAzNzAsIERvbmplIER2b3JpxaHEh2U!5e1!3m2!1sen!2shr!4v1770659542793!5m2!1sen!2shr"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Lokacija PROFI-REZ"
+            />
           </div>
         </div>
 
