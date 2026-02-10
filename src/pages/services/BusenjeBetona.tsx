@@ -1,5 +1,20 @@
 import Layout from "@/components/Layout/Layout";
 import { Check } from "lucide-react";
+import busenje1 from "@/assets/busenje-1.jpg";
+import busenje2 from "@/assets/busenje-2.jpg";
+import busenje3 from "@/assets/busenje-3.jpg";
+import busenje4 from "@/assets/busenje-4.jpg";
+import busenje5 from "@/assets/busenje-5.jpg";
+import busenje6 from "@/assets/busenje-6.jpg";
+
+const galleryImages = [
+  { src: busenje1, alt: "Bušenje više rupa u betonskom zidu" },
+  { src: busenje2, alt: "Bušenje rupe za napu" },
+  { src: busenje3, alt: "Bušenje rupe kroz zid" },
+  { src: busenje4, alt: "Bušenje rupa u podu" },
+  { src: busenje5, alt: "Bušenje rupe za ventilaciju" },
+  { src: busenje6, alt: "Bušenje rupa na fasadi" },
+];
 
 const BusenjeBetona = () => {
   const services = [
@@ -47,6 +62,24 @@ const BusenjeBetona = () => {
                 </li>
               ))}
             </ul>
+          </div>
+
+          <h2 className="text-2xl font-bold mt-12 mb-6 text-foreground">
+            Galerija radova
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {galleryImages.map((image, index) => (
+              <div
+                key={index}
+                className="relative aspect-square overflow-hidden rounded-lg shadow-lg group"
+              >
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
