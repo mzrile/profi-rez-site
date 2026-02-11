@@ -83,6 +83,11 @@ const Header = () => {
               </ul>
             </li>
             <li>
+              <a href="https://brekalo.hr/" target="_blank" rel="noopener noreferrer" className="block px-3 py-2 text-foreground hover:text-primary transition-colors font-medium">
+                Visokotlačno pranje krova
+              </a>
+            </li>
+            <li>
               <Link to="/o-nama" className="block px-3 py-2 text-foreground hover:text-primary transition-colors font-medium">
                 O nama
               </Link>
