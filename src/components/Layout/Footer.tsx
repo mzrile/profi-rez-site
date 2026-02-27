@@ -31,8 +31,8 @@ const Footer = () => {
         <div className="p-6" style={{ backgroundColor: '#292929' }}>
           <h3 className="text-base font-bold mb-3">Radno vrijeme</h3>
           <div className="space-y-1.5 text-sm">
-            <p>Pon - Pet: 08 - 16h</p>
-            <p>Subota: 08 - 12h</p>
+            <p>Pon - Pet: 0 - 24h</p>
+            <p>Subota: 0 - 24h</p>
             <p>Nedjelja: ne radimo</p>
           </div>
         </div>

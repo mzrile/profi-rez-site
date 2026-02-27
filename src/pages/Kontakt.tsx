@@ -35,8 +35,8 @@ const Kontakt = () => {
                   <h2 className="text-2xl font-bold text-card-foreground">Radno vrijeme</h2>
                 </div>
                 <div className="space-y-2 text-foreground">
-                  <p>Pon - Pet: 08 - 16h</p>
-                  <p>Subota: 08 - 12h</p>
+                  <p>Pon - Pet: 0 - 24h</p>
+                  <p>Subota: 0 - 24h</p>
                   <p>Nedjelja: ne radimo</p>
                 </div>
               </div>
