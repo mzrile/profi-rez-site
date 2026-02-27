@@ -3,8 +3,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import slider1 from "@/assets/slider-1.jpg";
 import slider2 from "@/assets/slider-2.jpg";
-import slider3 from "@/assets/slider-3.jpg";
-import slider4 from "@/assets/slider-4.jpg";
 
 const slides = [
   { 
@@ -18,17 +16,6 @@ const slides = [
     image: slider2, 
     alt: "Profesionalno bušenje betona",
     text: "Bušenje rupa u zidu, rupa za bojler i dimnjak, bušenje otvora za grijanje"
-  },
-  { 
-    id: 3, 
-    image: slider3, 
-    alt: "Rušenje građevinskih objekata",
-    text: "Rušenje kuća i zgrada, rušenje objekta, rušenje nosivih greda"
-  },
-  { 
-    id: 4, 
-    image: slider4, 
-    alt: "Profesionalna oprema za rad na betonu"
   },
 ];
 
