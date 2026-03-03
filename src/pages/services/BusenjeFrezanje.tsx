@@ -1,7 +1,13 @@
 import Layout from "@/components/Layout/Layout";
 import { Check } from "lucide-react";
+import { useSeo } from "@/hooks/use-seo";
 
 const BusenjeFrezanje = () => {
+  useSeo({
+    title: "Bušenje i frezanje betona - PROFI-REZ",
+    description: "Frezanje i brušenje betonskog poda. Uklanjanje betona, sanacija oštećenog betona, uklanjanje premaza. Profesionalna oprema.",
+    canonical: "/usluge/busenje-frezanje",
+  });
   const services = [
     "Uklanjanje betona",
     "Ravnjanje razlika u betonu",

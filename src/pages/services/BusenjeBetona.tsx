@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout/Layout";
 import { Check } from "lucide-react";
+import { useSeo } from "@/hooks/use-seo";
 import busenje1 from "@/assets/busenje-1.jpg";
 import busenje2 from "@/assets/busenje-2.jpg";
 import busenje3 from "@/assets/busenje-3.jpg";
@@ -17,6 +18,11 @@ const galleryImages = [
 ];
 
 const BusenjeBetona = () => {
+  useSeo({
+    title: "Bušenje betona - PROFI-REZ | Dijamantne krune",
+    description: "Profesionalno bušenje betona dijamantnim krunama uz minimalnu prašinu. Bušenje rupa u zidu, stropu, podu. Precizno i čisto izvođenje radova.",
+    canonical: "/usluge/busenje-betona",
+  });
   const services = [
     "Bušenje rupa u zidu",
     "Bušenje rupa u stropu",
