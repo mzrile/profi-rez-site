@@ -1,8 +1,14 @@
 import Layout from "@/components/Layout/Layout";
 import ContactForm from "@/components/Contact/ContactForm";
 import { Clock, Mail, Phone } from "lucide-react";
+import { useSeo } from "@/hooks/use-seo";
 
 const Kontakt = () => {
+  useSeo({
+    title: "Kontakt - PROFI-REZ | Rezanje i bušenje betona",
+    description: "Kontaktirajte PROFI-REZ za dijamantno rezanje i bušenje betona. Telefon: +385 95 509 6599, Email: info@profi-rez.hr. Pokrivamo cijelu Hrvatsku.",
+    canonical: "/kontakt",
+  });
   return (
     <Layout>
       <div className="py-16 bg-background">

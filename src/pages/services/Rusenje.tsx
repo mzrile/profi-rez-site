@@ -1,7 +1,13 @@
 import Layout from "@/components/Layout/Layout";
 import { Check } from "lucide-react";
+import { useSeo } from "@/hooks/use-seo";
 
 const Rusenje = () => {
+  useSeo({
+    title: "Rušenje objekata - PROFI-REZ",
+    description: "Profesionalno rušenje objekata, kuća, zgrada i betonskih konstrukcija. Djelomično i kompletno rušenje s dijamantnim alatima.",
+    canonical: "/usluge/rusenje",
+  });
   const services = [
     "Djelomično rušenje objekta",
     "Kompletno rušenje objekta",

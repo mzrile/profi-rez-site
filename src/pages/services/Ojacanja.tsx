@@ -1,6 +1,12 @@
 import Layout from "@/components/Layout/Layout";
+import { useSeo } from "@/hooks/use-seo";
 
 const Ojacanja = () => {
+  useSeo({
+    title: "Ojačanja metalnom konstrukcijom - PROFI-REZ",
+    description: "Ojačanja metalnom konstrukcijom za rezanje i bušenje betona. Profesionalna ugradnja metalnih konstrukcija za stabilnost objekata.",
+    canonical: "/usluge/ojacanja",
+  });
   return (
     <Layout>
       <div className="py-16 bg-background">

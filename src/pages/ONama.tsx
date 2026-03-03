@@ -1,7 +1,13 @@
 import Layout from "@/components/Layout/Layout";
+import { useSeo } from "@/hooks/use-seo";
 import oNamaImage from "@/assets/o-nama.jpg";
 
 const ONama = () => {
+  useSeo({
+    title: "O nama - PROFI-REZ | Dijamantno rezanje i bušenje betona",
+    description: "PROFI-REZ SIM d.o.o. - vrhunske usluge dijamantnog rezanja i bušenja betona na području cijele Hrvatske. Iskustvo, preciznost i kvaliteta.",
+    canonical: "/o-nama",
+  });
   return (
     <Layout>
       <div className="py-16 bg-background">

@@ -3,11 +3,36 @@ import HeroSlider from "@/components/Home/HeroSlider";
 import Gallery from "@/components/Home/Gallery";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { useSeo } from "@/hooks/use-seo";
 import concreteCutting from "@/assets/concrete-cutting.jpg";
 import concreteDrilling from "@/assets/concrete-drilling.jpg";
 import concreteMilling from "@/assets/concrete-milling.jpg";
 
 const Index = () => {
+  useSeo({
+    title: "PROFI-REZ - Dijamantno rezanje i bušenje betona | Hrvatska",
+    description: "Profesionalne usluge dijamantnog rezanja betona, bušenja betona i frezanja betona. Brzo, precizno i učinkovito. Pokrivamo cijelu Hrvatsku.",
+    canonical: "/",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "PROFI-REZ SIM d.o.o.",
+      "description": "Profesionalne usluge dijamantnog rezanja betona, bušenja betona i frezanja betona u Hrvatskoj.",
+      "url": "https://profi-rez.hr",
+      "telephone": "+385955096599",
+      "email": "info@profi-rez.hr",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Botanička ulica 14",
+        "addressLocality": "Donje Dvorišće",
+        "addressCountry": "HR"
+      },
+      "openingHours": ["Mo-Sa 00:00-24:00"],
+      "areaServed": "HR",
+      "serviceType": ["Rezanje betona", "Bušenje betona", "Dijamantno rezanje betona", "Frezanje betona", "Rušenje objekata"]
+    }
+  });
+
   return (
     <Layout>
       <HeroSlider />

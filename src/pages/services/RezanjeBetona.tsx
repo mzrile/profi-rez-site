@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout/Layout";
 import { Check } from "lucide-react";
+import { useSeo } from "@/hooks/use-seo";
 import rezanje1 from "@/assets/rezanje-1.jpg";
 import rezanje2 from "@/assets/rezanje-2.jpg";
 import rezanje3 from "@/assets/rezanje-3.jpg";
@@ -17,6 +18,11 @@ const galleryImages = [
 ];
 
 const RezanjeBetona = () => {
+  useSeo({
+    title: "Dijamantno rezanje betona - PROFI-REZ | Profesionalne usluge",
+    description: "Dijamantno rezanje betona mokrom tehnikom. Rezanje armiranog betona, otvaranje otvora za prozore, vrata, stepenice i liftove. Brzo i precizno.",
+    canonical: "/usluge/rezanje-betona",
+  });
   const services = [
     "Otvor za prozore, krovne prozore i vrata",
     "Otvor za stepenice",
