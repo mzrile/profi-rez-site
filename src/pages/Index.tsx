@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useSeo } from "@/hooks/use-seo";
 import concreteCutting from "@/assets/concrete-cutting.jpg";
 import concreteDrilling from "@/assets/concrete-drilling.jpg";
-import concreteMilling from "@/assets/concrete-milling.jpg";
+import concreteMilling from "@/assets/brusenje-betona.jpg";
 
 const Index = () => {
   useSeo({
