@@ -91,7 +91,7 @@ const Footer = () => {
       <div className="border-t border-white/20" style={{ backgroundColor: '#1a1a1a' }}>
         <div className="px-4 py-3">
           <p className="text-center text-sm text-white">
-            Copyright 2025 | Profi-rez.hr | Powered by remarketing.hr
+            Copyright 2026 | Profi-rez.hr
           </p>
         </div>
       </div>
