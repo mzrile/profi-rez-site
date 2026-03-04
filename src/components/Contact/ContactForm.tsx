@@ -47,15 +47,31 @@ const ContactForm = () => {
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    
-    toast.success("Poruka uspješno poslana!", {
-      description: "Javit ćemo Vam se u najkraćem mogućem roku.",
-    });
-    
-    form.reset();
-    setIsSubmitting(false);
+    try {
+      const response = await fetch(
+        `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-contact-email`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(values),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error('Failed to send');
+      }
+
+      toast.success("Poruka uspješno poslana!", {
+        description: "Javit ćemo Vam se u najkraćem mogućem roku.",
+      });
+      form.reset();
+    } catch (error) {
+      toast.error("Greška pri slanju poruke", {
+        description: "Molimo pokušajte ponovno ili nas kontaktirajte telefonom.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
