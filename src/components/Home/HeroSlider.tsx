@@ -3,19 +3,26 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import slider1 from "@/assets/slider-1.jpg";
 import slider2 from "@/assets/slider-2.jpg";
+import slider3 from "@/assets/slider-3.jpg";
 
 const slides = [
   { 
     id: 1, 
     image: slider1, 
-    alt: "Dijamantno rezanje betona",
+    alt: "Dijamantno bušenje betona",
     text: "Rezanje betona, bušenje betona, rezanje otvora"
   },
   { 
     id: 2, 
     image: slider2, 
-    alt: "Profesionalno bušenje betona",
+    alt: "Rezanje otvora u betonskim zidovima",
     text: "Bušenje rupa u zidu, rupa za bojler i dimnjak, bušenje otvora za grijanje"
+  },
+  { 
+    id: 3, 
+    image: slider3, 
+    alt: "Rušenje zidova i pregradnih stijena",
+    text: "Rušenje objekata, rezanje zidova, uklanjanje pregrada"
   },
 ];
 
