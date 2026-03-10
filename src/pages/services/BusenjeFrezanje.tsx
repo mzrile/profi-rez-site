@@ -50,6 +50,14 @@ const BusenjeFrezanje = () => {
               ))}
             </ul>
           </div>
+
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold mb-6 text-foreground">Galerija radova</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <img src={brusenje1} alt="Brušenje betona - radnik na terenu" className="w-full h-auto rounded-lg shadow-lg" />
+              <img src={brusenje2} alt="Brušeni betonski pod - završni rezultat" className="w-full h-auto rounded-lg shadow-lg" />
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
