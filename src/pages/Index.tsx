@@ -117,7 +117,7 @@ const Index = () => {
               </p>
               <div className="flex justify-end">
                 <Button asChild>
-                  <Link to="/usluge/busenje-frezanje">Saznajte više</Link>
+                  <Link to="/usluge/brusenje-frezanje">Saznajte više</Link>
                 </Button>
               </div>
             </div>

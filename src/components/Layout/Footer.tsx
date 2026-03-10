@@ -69,7 +69,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="/usluge/busenje-frezanje" className="hover:text-accent transition-colors">
+              <Link to="/usluge/brusenje-frezanje" className="hover:text-accent transition-colors">
                 Brušenje i frezanje betona
               </Link>
             </li>

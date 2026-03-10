@@ -6,7 +6,7 @@ const corsHeaders = {
 const serviceLabels: Record<string, string> = {
   rezanje: "Rezanje betona",
   busenje: "Bušenje betona",
-  "busenje-frezanje": "Bušenje i frezanje betona",
+  "brusenje-frezanje": "Brušenje i frezanje betona",
   ojacanja: "Ojačanja metalnom konstrukcijom",
   rusenje: "Rušenje objekata",
   ostalo: "Ostalo",
