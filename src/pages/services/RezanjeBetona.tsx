@@ -7,6 +7,12 @@ import rezanje3 from "@/assets/rezanje-3.jpg";
 import rezanje4 from "@/assets/rezanje-4.jpg";
 import rezanje5 from "@/assets/rezanje-5.jpg";
 import rezanje6 from "@/assets/rezanje-6.jpg";
+import rezanje7 from "@/assets/rezanje-7.jpg";
+import rezanje8 from "@/assets/rezanje-8.jpg";
+import rezanje9 from "@/assets/rezanje-9.jpg";
+import rezanje10 from "@/assets/rezanje-10.jpg";
+import rezanje11 from "@/assets/rezanje-11.jpg";
+import rezanje12 from "@/assets/rezanje-12.jpg";
 
 const galleryImages = [
   { src: rezanje1, alt: "Rezanje betonskog zida - otvori" },
@@ -15,6 +21,12 @@ const galleryImages = [
   { src: rezanje4, alt: "Rezanje otvora u betonskom podu" },
   { src: rezanje5, alt: "Izrezani otvor za vrata u zidu" },
   { src: rezanje6, alt: "Rezanje otvora u nosivom zidu" },
+  { src: rezanje7, alt: "Rezanje otvora u betonskoj ploči" },
+  { src: rezanje8, alt: "Izrezani otvor na krovu zgrade" },
+  { src: rezanje9, alt: "Dijamantno rezanje otvora za vrata" },
+  { src: rezanje10, alt: "Završeni otvor za prolaz u zgradi" },
+  { src: rezanje11, alt: "Radnici na gradilištu između betonskih zidova" },
+  { src: rezanje12, alt: "Rezanje otvora u nosivom zidu" },
 ];
 
 const RezanjeBetona = () => {
