@@ -1,6 +1,8 @@
 import Layout from "@/components/Layout/Layout";
 import { Check } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
+import brusenje1 from "@/assets/brusenje-1.jpg";
+import brusenje2 from "@/assets/brusenje-2.jpg";
 
 const BusenjeFrezanje = () => {
   useSeo({
