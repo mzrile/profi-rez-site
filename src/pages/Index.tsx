@@ -107,7 +107,7 @@ const Index = () => {
               />
             </div>
             <div className="order-1 lg:order-2">
-              <h2 className="text-3xl font-bold text-foreground mb-4">Bušenje i frezanje betona</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Brušenje i frezanje betona</h2>
               <p className="text-lg leading-relaxed text-foreground mb-6">
                 Frezanje (glodanje betona) i brušenje betonskog poda zahtijeva posebnu opremu. 
                 Ovdje je važno biti svjestan da se ravan i gladak betonski pod najčešće koristi 
