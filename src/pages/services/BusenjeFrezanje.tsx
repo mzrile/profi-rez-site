@@ -4,9 +4,9 @@ import { useSeo } from "@/hooks/use-seo";
 
 const BusenjeFrezanje = () => {
   useSeo({
-    title: "Bušenje i frezanje betona - PROFI-REZ",
+    title: "Brušenje i frezanje betona - PROFI-REZ",
     description: "Frezanje i brušenje betonskog poda. Uklanjanje betona, sanacija oštećenog betona, uklanjanje premaza. Profesionalna oprema.",
-    canonical: "/usluge/busenje-frezanje",
+    canonical: "/usluge/brusenje-frezanje",
   });
   const services = [
     "Uklanjanje betona",
