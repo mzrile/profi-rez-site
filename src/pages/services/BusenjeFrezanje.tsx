@@ -4,9 +4,9 @@ import { useSeo } from "@/hooks/use-seo";
 
 const BusenjeFrezanje = () => {
   useSeo({
-    title: "Bušenje i frezanje betona - PROFI-REZ",
+    title: "Brušenje i frezanje betona - PROFI-REZ",
     description: "Frezanje i brušenje betonskog poda. Uklanjanje betona, sanacija oštećenog betona, uklanjanje premaza. Profesionalna oprema.",
-    canonical: "/usluge/busenje-frezanje",
+    canonical: "/usluge/brusenje-frezanje",
   });
   const services = [
     "Uklanjanje betona",
@@ -22,7 +22,7 @@ const BusenjeFrezanje = () => {
       <div className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
-            Bušenje i frezanje betona
+            Brušenje i frezanje betona
           </h1>
           
           <div className="prose max-w-none mb-12">

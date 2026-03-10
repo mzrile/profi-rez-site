@@ -136,7 +136,7 @@ const ContactForm = () => {
                   <SelectContent>
                     <SelectItem value="rezanje">Rezanje betona</SelectItem>
                     <SelectItem value="busenje">Bušenje betona</SelectItem>
-                    <SelectItem value="busenje-frezanje">Bušenje i frezanje betona</SelectItem>
+                    <SelectItem value="brusenje-frezanje">Brušenje i frezanje betona</SelectItem>
                     <SelectItem value="ojacanja">Ojačanja metalnom konstrukcijom</SelectItem>
                     <SelectItem value="rusenje">Rušenje objekata</SelectItem>
                     <SelectItem value="ostalo">Ostalo</SelectItem>
