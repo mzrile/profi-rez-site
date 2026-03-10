@@ -102,7 +102,7 @@ const Index = () => {
             <div className="order-2 lg:order-1">
               <img
                 src={concreteMilling}
-                alt="Bušenje i frezanje betona"
+                alt="Brušenje i frezanje betona"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
             </div>
