@@ -66,8 +66,8 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/usluge/busenje-frezanje" className="block px-4 py-2 text-foreground hover:text-primary hover:bg-secondary transition-colors">
-                    Bušenje i frezanje betona
+                  <Link to="/usluge/brusenje-frezanje" className="block px-4 py-2 text-foreground hover:text-primary hover:bg-secondary transition-colors">
+                    Brušenje i frezanje betona
                   </Link>
                 </li>
                 <li>
