@@ -7,6 +7,9 @@ import busenje3 from "@/assets/busenje-3.jpg";
 import busenje4 from "@/assets/busenje-4.jpg";
 import busenje5 from "@/assets/busenje-5.jpg";
 import busenje6 from "@/assets/busenje-6.jpg";
+import busenje7 from "@/assets/busenje-7.jpg";
+import busenje8 from "@/assets/busenje-8.jpg";
+import busenje9 from "@/assets/busenje-9.jpg";
 
 const galleryImages = [
   { src: busenje1, alt: "Bušenje više rupa u betonskom zidu" },
@@ -15,6 +18,9 @@ const galleryImages = [
   { src: busenje4, alt: "Bušenje rupa u podu" },
   { src: busenje5, alt: "Bušenje rupe za ventilaciju" },
   { src: busenje6, alt: "Bušenje rupa na fasadi" },
+  { src: busenje7, alt: "Bušenje rupa za instalacije u betonskom zidu" },
+  { src: busenje8, alt: "Bušenje rupe iznad prozora" },
+  { src: busenje9, alt: "Bušenje otvora u zidu ispod stepenica" },
 ];
 
 const BusenjeBetona = () => {
